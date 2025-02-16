@@ -56,7 +56,7 @@ const ConfirmationPage = () => {
 
   return (
     <View style={styles.container}>
-      {/* Map Section */}
+    
       <View style={styles.mapContainer}>
         <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
           <Ionicons name="arrow-back" size={24} color="black" />
